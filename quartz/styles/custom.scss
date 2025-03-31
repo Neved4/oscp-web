@@ -1,0 +1,44 @@
+@use "./base.scss";
+
+// .popover-hint {
+//     max-width: 80ch;
+// }
+
+p {
+    font-size: 110%;
+}
+
+// h1 {
+//     font-variant: small-caps;
+// }
+
+// .popover-hint h2 {
+// 	// font-variant: small-caps;
+//     font-weight: bold;
+// }
+
+// h3:not(.section-ul h3) {
+//     font-style: italic;
+// }
+
+pre>code>span[data-line]::before {
+    display:none;
+}
+
+pre>code>[data-line] {
+    padding: 0 0.6rem;
+    tab-size: 4;
+    font-size: 105%;
+}
+
+ul, ol {
+    margin-left: 0.25rem;
+}
+
+ol {
+    padding-left: 3rem;
+}
+
+ul {
+    padding-left: 2.25rem;
+}
